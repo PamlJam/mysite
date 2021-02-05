@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+<!--引用框架文件-->
+    {% block title %}
+        博客列表
+    {% endblock %}
+
+    {% block content %}
+
+        <p>当前共有{{blogs.paginator.count}}篇博客</p>
+        <!--
+            通过具体的某一页找到分页器
+            再读出分页器包含的所有对象数！
+        -->
+
+        <p>
+            当前最受欢迎的博客:<a href="./{{hot.pk}}">{{hot.title}}</a>
+        </p>
+        
+        {% for b in blogs %}
+            <a href="./{{b.pk}}">{{ b.title }}</a>
+            浏览次数：{{ b.read_num }}
+            <p>{{ b.content|striptags|truncatechars:20 }}</p>
+            <!--过滤器的使用,限制长度20-->
+            {% empty %}
+            <p> 暂无内容 </p>
+            <!--blogs为空时的特殊处理-->
+        {% endfor %}
+
+        <ul>
+            {% for date in blogdates %}
+            <!--遍历日期-->
+                <li>
+                    <a href="/blog/date/{{date.year}}/{{date.month}}"><!-- 传入date的属性，作为url的一部分 -->
+                        {{ date | date:"Y年-m月"}}
+                        <!-- 日期过滤器 -->
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+
+        <ul>
+            {% for type in types %}
+            <!--遍历种类-->
+                <li>
+                    <a href="/blog/type/{{type.pk}}">
+                    <!-- 传入date的属性，作为url的一部分 -->
+                        {{type.type_name}}
+                        总共有 ：{{type.cnt}}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li>
+                {% if blogs.has_previous %}
+                <!-- 若没有前一项，隐藏“向前”按钮 -->
+                    <a href="/blog/?page={{blogs.previous_page_number}}" aria-label="Previous">
+                    <!-- 跳转上一页 -->
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                {% endif %}
+
+              </li>
+              {% for num in blogs.paginator.page_range %}
+              <!-- 对页码循环 -->
+                  <li><a href="/blog/?page={{num}}">{{num}}</a></li>
+              {% endfor %}
+              <li>
+                {% if blogs.has_next %}
+                <!-- 若没有后一项，隐藏“向后”按钮 -->
+                    <a href="/blog/?page={{blogs.next_page_number}}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                {% endif %}
+                </a>
+              </li>
+            </ul>
+        </nav>
+    {% endblock %}

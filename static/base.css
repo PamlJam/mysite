@@ -1,0 +1,19 @@
+body{
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+div.nav a{
+    text-decoration: none;
+    /*删除超链接的下划线*/
+    color: black;
+    background-color:aquamarine;
+    margin-left: 5px;
+}
+div.nav{
+    background-color:cornflowerblue;
+    border-bottom: 3px solid #ccc;
+    /*设置分割线粗细颜色*/
+    padding: 5px 10px;
+    /*设置边距*/
+}

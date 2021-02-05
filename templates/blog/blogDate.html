@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+    {% block title %}
+        创建日期-{{year}}-{{month}}
+    {% endblock %}
+    {% block content %}
+        <h3>{{blogs_type.type_name}}</h3>
+        <p>当前共有{{blogs|length}}篇博客</p>
+        <!--过滤器的使用,显示长度-->
+        {% for b in blogs %}
+            <a href="../{{b.pk}}">
+                {{ b.title }}
+            </a>
+            <p>{{ b.content|truncatechars:20 }}</p>
+            <!--过滤器的使用,限制长度20-->
+        {% empty %}
+            <p> 暂无内容 </p>
+            <!--blogs为空时的特殊处理-->
+        {% endfor %}
+    {% endblock %}

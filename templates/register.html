@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+    {% block title %}
+        我的网站 | 注册
+    {% endblock %}
+    {% block content %}
+        <span>请先注册</span>
+        <form action="/register/" method="POST">
+            {% csrf_token %}
+            {{ reg_form }}
+            <input type="submit">
+        </form>
+    {% endblock %}

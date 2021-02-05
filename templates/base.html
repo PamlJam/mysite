@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--IE浏览器-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--响应式布局，根据设备屏幕自动调节样式-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            <!--填入替代的内容-->
+        {% endblock %}
+    </title>
+    <script type="text/javascript" src="/static/jquery.min.js"></script>
+    <!--引用jquery,放在bootstrap.min.css前面-->
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!--引用css文件-->
+    <script type="text/javascript" src=
+    "/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!--引用js文件-->
+</head>
+<body>
+    <!--以下内容均为复制粘贴-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Huang's Site</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="/blog">博客</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    {% block content %}
+        <!--填入替代的内容-->
+    {% endblock %}
+</body>
+</html>
