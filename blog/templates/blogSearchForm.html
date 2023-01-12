@@ -1,0 +1,5 @@
+<form role="search" method="get" id="searchform" action="{% url 'blog:searchArticle' %}">
+    <input type="search" name="q" placeholder="输入关键词" required>
+    <button type="submit"><span class="ion-ios-search-strong">搜索</button>
+    {% csrf_token %}
+</form>

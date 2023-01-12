@@ -1,0 +1,37 @@
+<style>
+    .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    main {
+    flex: 1;
+    }
+</style>
+
+
+<div class="container">
+    <header></header>
+    <main>
+        <p>
+        <a href="">首页</a>
+        | <a href="">博客</a>
+        | <a href="">关于</a>
+        </p>
+            
+        {% block son %}
+        
+        {% endblock son %}
+    </main>
+    <footer>
+
+        <p>
+        <a href="">备案信息</a>
+        | <a href="">版权声明</a>
+        | <a href="">友链</a>
+        | <a href="">联系站长</a>
+        </p>
+
+    </footer>
+</div>
