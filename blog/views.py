@@ -1,8 +1,10 @@
 from django.views import generic
 from .models import Article, Category
 from markdown import markdown
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from django.db.models import Q
+from django.http import HttpResponse
+
 
 allCategory = Category.objects.all()
 
@@ -47,3 +49,11 @@ def search(request):
     }
 
     return render(request,'blog/search_result.html',context)
+
+
+def download(request,**kwargs):
+    a = get_object_or_404(Article,id = kwargs['pk'])
+    response = HttpResponse(content_type = 'text/plain')
+    response['Content-Disposition'] = 'attachment; filename=' + "download.txt"
+    response.write(a.content)
+    return response

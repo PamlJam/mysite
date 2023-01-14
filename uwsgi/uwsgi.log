@@ -687,3 +687,7 @@ Not Found: /favicon.ico
 [pid: 45664|app: 0|req: 312/349] 175.1.109.203 () {36 vars in 758 bytes} [Sat Jan 14 14:07:15 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
 Not Found: /
 [pid: 45664|app: 0|req: 313/350] 185.180.143.6 () {30 vars in 438 bytes} [Sat Jan 14 15:11:23 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 314/351] 175.1.109.203 () {36 vars in 800 bytes} [Sat Jan 14 17:23:17 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 315/352] 175.1.109.203 () {36 vars in 758 bytes} [Sat Jan 14 17:23:17 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
