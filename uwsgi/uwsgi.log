@@ -145,3 +145,545 @@ spawned uWSGI http 1 (pid: 45665)
 [pid: 45664|app: -1|req: -1/16] 175.1.122.147 () {40 vars in 893 bytes} [Fri Jan 13 00:51:00 2023] GET /static/admin/fonts/Roboto-Bold-webfont.woff => generated 86184 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 125 bytes (0 switches on core 0)
 [pid: 45664|app: -1|req: -1/17] 175.1.122.147 () {40 vars in 895 bytes} [Fri Jan 13 00:51:00 2023] GET /static/admin/fonts/Roboto-Light-webfont.woff => generated 85692 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 125 bytes (0 switches on core 0)
 [pid: 45664|app: -1|req: -1/18] 1.13.139.243 () {34 vars in 574 bytes} [Fri Jan 13 00:51:54 2023] GET /static/admin/img/icon-addlink.svg => generated 331 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 115 bytes (0 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 5/19] 175.1.122.147 () {36 vars in 800 bytes} [Fri Jan 13 01:01:50 2023] GET / => generated 2168 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 6/20] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:01:57 2023] GET /blog/article/ => generated 4411 bytes in 11 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 7/21] 175.1.122.147 () {36 vars in 771 bytes} [Fri Jan 13 01:07:18 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 8/22] 175.1.122.147 () {36 vars in 800 bytes} [Fri Jan 13 01:07:46 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 9/23] 175.1.122.147 () {36 vars in 758 bytes} [Fri Jan 13 01:07:46 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 10/24] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:07:52 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 11/25] 106.17.28.181 () {38 vars in 970 bytes} [Fri Jan 13 01:08:18 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 12/26] 106.17.28.181 () {40 vars in 972 bytes} [Fri Jan 13 01:08:18 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 13/27] 193.112.170.234 () {36 vars in 586 bytes} [Fri Jan 13 01:08:25 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 14/28] 59.36.129.53 () {32 vars in 440 bytes} [Fri Jan 13 01:08:25 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.0 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 15/29] 157.148.40.57 () {42 vars in 1025 bytes} [Fri Jan 13 01:08:31 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 16/30] 180.163.29.212 () {32 vars in 492 bytes} [Fri Jan 13 01:09:00 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 17/31] 180.163.29.206 () {32 vars in 593 bytes} [Fri Jan 13 01:09:01 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 18/32] 180.163.29.206 () {34 vars in 651 bytes} [Fri Jan 13 01:09:02 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 19/33] 175.1.122.147 () {36 vars in 800 bytes} [Fri Jan 13 01:10:35 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 20/34] 175.1.122.147 () {36 vars in 758 bytes} [Fri Jan 13 01:10:35 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 21/35] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:10:40 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 22/36] 175.1.122.147 () {38 vars in 1058 bytes} [Fri Jan 13 01:10:46 2023] GET /blog/search/?q=fa&csrfmiddlewaretoken=8VrWK2WfbRWtUGg4cu1GTlORQz2mOJAJofUYCKahoZen1Kw1GkjzsGkE4refOTcB => generated 645 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 23/37] 175.1.122.147 () {38 vars in 881 bytes} [Fri Jan 13 01:10:50 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 24/38] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:11:03 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/39] 175.1.122.147 () {38 vars in 809 bytes} [Fri Jan 13 01:11:03 2023] GET /static/pygments.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 25/40] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:11:06 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 26/41] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:11:12 2023] GET /blog/article/1/ => generated 2037 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 27/42] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:13:16 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 28/43] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:13:18 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 29/44] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:13:52 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 30/45] 175.1.122.147 () {38 vars in 883 bytes} [Fri Jan 13 01:13:58 2023] GET /blog/article/4 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 31/46] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:13:59 2023] GET /blog/article/4/ => generated 2315 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/47] 175.1.122.147 () {38 vars in 809 bytes} [Fri Jan 13 01:13:59 2023] GET /static/pygments.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 32/48] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:14:01 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 33/49] 175.1.122.147 () {38 vars in 883 bytes} [Fri Jan 13 01:14:04 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 34/50] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:14:04 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 35/51] 175.1.122.147 () {38 vars in 886 bytes} [Fri Jan 13 01:18:41 2023] GET /blog/category/4/ => generated 626 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 36/52] 175.1.122.147 () {38 vars in 886 bytes} [Fri Jan 13 01:18:43 2023] GET /blog/category/5/ => generated 626 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 37/53] 175.1.122.147 () {38 vars in 886 bytes} [Fri Jan 13 01:18:44 2023] GET /blog/category/3/ => generated 626 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 38/54] 175.1.122.147 () {38 vars in 884 bytes} [Fri Jan 13 01:18:45 2023] GET /blog/category/2 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 39/55] 175.1.122.147 () {38 vars in 886 bytes} [Fri Jan 13 01:18:45 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 40/56] 175.1.122.147 () {38 vars in 884 bytes} [Fri Jan 13 01:18:46 2023] GET /blog/category/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 41/57] 175.1.122.147 () {38 vars in 887 bytes} [Fri Jan 13 01:18:47 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 42/58] 175.1.122.147 () {38 vars in 887 bytes} [Fri Jan 13 01:18:50 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 43/59] 175.1.122.147 () {38 vars in 887 bytes} [Fri Jan 13 01:18:51 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 44/60] 220.196.160.101 () {40 vars in 985 bytes} [Fri Jan 13 01:21:37 2023] GET /blog/search/?q=fa&csrfmiddlewaretoken=8VrWK2WfbRWtUGg4cu1GTlORQz2mOJAJofUYCKahoZen1Kw1GkjzsGkE4refOTcB => generated 645 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 45/61] 175.1.122.147 () {38 vars in 887 bytes} [Fri Jan 13 01:25:20 2023] GET /blog/category/2/ => generated 1762 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 46/62] 175.1.122.147 () {38 vars in 887 bytes} [Fri Jan 13 01:25:22 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 47/63] 175.1.122.147 () {38 vars in 857 bytes} [Fri Jan 13 01:27:57 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 48/64] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:28:00 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/65] 175.1.122.147 () {38 vars in 809 bytes} [Fri Jan 13 01:28:00 2023] GET /static/pygments.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 49/66] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:28:03 2023] GET /blog/article/2/ => generated 2569 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 50/67] 175.1.122.147 () {38 vars in 883 bytes} [Fri Jan 13 01:28:07 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 51/68] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:28:08 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 52/69] 175.1.122.147 () {38 vars in 885 bytes} [Fri Jan 13 01:28:10 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 53/70] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:32:11 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 54/71] 116.232.149.249 () {36 vars in 749 bytes} [Fri Jan 13 01:33:29 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 55/72] 116.232.149.249 () {38 vars in 751 bytes} [Fri Jan 13 01:33:29 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 56/73] 116.232.149.249 () {40 vars in 861 bytes} [Fri Jan 13 01:34:02 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 57/74] 116.232.149.249 () {40 vars in 863 bytes} [Fri Jan 13 01:34:06 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 58/75] 116.232.149.249 () {40 vars in 866 bytes} [Fri Jan 13 01:34:06 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/76] 116.232.149.249 () {38 vars in 735 bytes} [Fri Jan 13 01:34:06 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 59/77] 175.1.122.147 () {36 vars in 826 bytes} [Fri Jan 13 01:38:25 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 60/78] 175.1.122.147 () {36 vars in 771 bytes} [Fri Jan 13 01:38:25 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 61/79] 175.1.122.147 () {38 vars in 881 bytes} [Fri Jan 13 01:38:31 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 62/80] 175.1.122.147 () {38 vars in 881 bytes} [Fri Jan 13 01:38:32 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 63/81] 112.1.228.213 () {34 vars in 713 bytes} [Fri Jan 13 01:42:17 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 64/82] 112.1.228.213 () {36 vars in 715 bytes} [Fri Jan 13 01:42:18 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 65/83] 112.1.228.213 () {38 vars in 801 bytes} [Fri Jan 13 01:42:21 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 66/84] 183.248.24.45 () {36 vars in 702 bytes} [Fri Jan 13 01:43:44 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 67/85] 183.248.24.45 () {38 vars in 704 bytes} [Fri Jan 13 01:43:45 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 68/86] 115.234.103.155 () {36 vars in 758 bytes} [Fri Jan 13 01:47:35 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 69/87] 115.234.103.155 () {36 vars in 760 bytes} [Fri Jan 13 01:47:35 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 70/88] 115.234.103.155 () {38 vars in 747 bytes} [Fri Jan 13 01:47:35 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 71/89] 115.234.103.155 () {40 vars in 872 bytes} [Fri Jan 13 01:47:41 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 72/90] 112.12.237.138 () {36 vars in 755 bytes} [Fri Jan 13 01:49:36 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 73/91] 112.12.237.138 () {38 vars in 757 bytes} [Fri Jan 13 01:49:36 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 74/92] 171.82.2.163 () {36 vars in 741 bytes} [Fri Jan 13 01:51:14 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 75/93] 171.82.2.163 () {38 vars in 742 bytes} [Fri Jan 13 01:51:14 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 76/94] 171.82.2.163 () {40 vars in 829 bytes} [Fri Jan 13 01:51:17 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 77/95] 171.82.2.163 () {40 vars in 854 bytes} [Fri Jan 13 01:51:22 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 78/96] 171.82.2.163 () {40 vars in 857 bytes} [Fri Jan 13 01:51:22 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/97] 171.82.2.163 () {38 vars in 726 bytes} [Fri Jan 13 01:51:22 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 79/98] 36.143.101.199 () {36 vars in 743 bytes} [Fri Jan 13 01:53:14 2023] GET /blog/article/ => generated 4411 bytes in 9 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 80/99] 36.143.101.199 () {38 vars in 745 bytes} [Fri Jan 13 01:53:14 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 81/100] 119.44.61.123 () {36 vars in 665 bytes} [Fri Jan 13 01:59:04 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 82/101] 119.44.61.123 () {38 vars in 678 bytes} [Fri Jan 13 01:59:05 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 83/102] 119.44.61.123 () {40 vars in 779 bytes} [Fri Jan 13 01:59:18 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 84/103] 119.44.61.123 () {40 vars in 781 bytes} [Fri Jan 13 01:59:18 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/104] 119.44.61.123 () {38 vars in 689 bytes} [Fri Jan 13 01:59:18 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 85/105] 106.17.28.181 () {40 vars in 1027 bytes} [Fri Jan 13 02:12:39 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 86/106] 106.17.28.181 () {40 vars in 972 bytes} [Fri Jan 13 02:12:39 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 87/107] 106.17.28.181 () {36 vars in 748 bytes} [Fri Jan 13 02:13:06 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 88/108] 106.17.28.181 () {38 vars in 750 bytes} [Fri Jan 13 02:13:07 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 89/109] 106.17.28.181 () {40 vars in 862 bytes} [Fri Jan 13 02:13:16 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 90/110] 106.17.28.181 () {40 vars in 864 bytes} [Fri Jan 13 02:13:16 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/111] 106.17.28.181 () {38 vars in 733 bytes} [Fri Jan 13 02:13:16 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 91/112] 106.17.28.181 () {40 vars in 862 bytes} [Fri Jan 13 02:13:20 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 92/113] 106.17.28.181 () {40 vars in 864 bytes} [Fri Jan 13 02:13:20 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 93/114] 106.17.28.181 () {40 vars in 864 bytes} [Fri Jan 13 02:13:31 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 94/115] 180.163.29.79 () {32 vars in 529 bytes} [Fri Jan 13 02:13:38 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 95/116] 180.163.29.79 () {34 vars in 585 bytes} [Fri Jan 13 02:13:38 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 96/117] 112.97.184.95 () {36 vars in 715 bytes} [Fri Jan 13 02:14:42 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 97/118] 112.97.184.95 () {36 vars in 674 bytes} [Fri Jan 13 02:14:42 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /blog
+[pid: 45664|app: 0|req: 98/119] 112.97.184.95 () {36 vars in 724 bytes} [Fri Jan 13 02:14:47 2023] GET /blog => generated 2198 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /blog/
+[pid: 45664|app: 0|req: 99/120] 112.97.184.95 () {36 vars in 726 bytes} [Fri Jan 13 02:14:52 2023] GET /blog/ => generated 3035 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 100/121] 112.97.184.95 () {36 vars in 742 bytes} [Fri Jan 13 02:14:58 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 101/122] 112.97.184.95 () {40 vars in 856 bytes} [Fri Jan 13 02:15:15 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 102/123] 112.97.184.95 () {40 vars in 858 bytes} [Fri Jan 13 02:15:15 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/124] 112.97.184.95 () {38 vars in 727 bytes} [Fri Jan 13 02:15:16 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 103/125] 112.97.184.95 () {38 vars in 799 bytes} [Fri Jan 13 02:15:18 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 104/126] 112.97.184.95 () {40 vars in 856 bytes} [Fri Jan 13 02:15:21 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 105/127] 112.97.184.95 () {40 vars in 858 bytes} [Fri Jan 13 02:15:21 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 106/128] 112.97.184.95 () {40 vars in 854 bytes} [Fri Jan 13 02:15:24 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 107/129] 112.97.184.95 () {40 vars in 856 bytes} [Fri Jan 13 02:16:12 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 108/130] 112.97.184.95 () {40 vars in 858 bytes} [Fri Jan 13 02:16:12 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Not Found: /blog/
+[pid: 45664|app: 0|req: 109/131] 220.196.160.96 () {38 vars in 736 bytes} [Fri Jan 13 02:19:59 2023] GET /blog/ => generated 3035 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 110/132] 114.105.134.155 () {36 vars in 710 bytes} [Fri Jan 13 02:28:23 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 111/133] 114.105.134.155 () {38 vars in 712 bytes} [Fri Jan 13 02:28:23 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 112/134] 114.105.134.155 () {40 vars in 826 bytes} [Fri Jan 13 02:28:28 2023] GET /blog/category/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 113/135] 114.105.134.155 () {40 vars in 828 bytes} [Fri Jan 13 02:28:28 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 114/136] 114.105.134.155 () {40 vars in 798 bytes} [Fri Jan 13 02:28:31 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 115/137] 114.105.134.155 () {40 vars in 822 bytes} [Fri Jan 13 02:28:37 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 116/138] 114.105.134.155 () {40 vars in 821 bytes} [Fri Jan 13 02:28:39 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 117/139] 114.105.134.155 () {40 vars in 821 bytes} [Fri Jan 13 02:28:41 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 118/140] 114.105.134.155 () {40 vars in 825 bytes} [Fri Jan 13 02:28:45 2023] GET /blog/category/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 119/141] 114.105.134.155 () {40 vars in 827 bytes} [Fri Jan 13 02:28:45 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 120/142] 114.105.134.155 () {40 vars in 826 bytes} [Fri Jan 13 02:28:47 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 121/143] 114.105.134.155 () {40 vars in 828 bytes} [Fri Jan 13 02:28:47 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/144] 114.105.134.155 () {38 vars in 683 bytes} [Fri Jan 13 02:28:47 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[uwsgi-http key:  client_addr: 80.66.77.82 client_port: 7419] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+Not Found: /
+[pid: 45664|app: 0|req: 122/145] 167.94.145.60 () {24 vars in 256 bytes} [Fri Jan 13 03:55:52 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 123/146] 167.94.145.60 () {30 vars in 392 bytes} [Fri Jan 13 03:55:52 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 124/147] 167.94.145.60 () {22 vars in 226 bytes} [Fri Jan 13 03:55:53 2023] PRI * => generated 55966 bytes in 23 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+[uwsgi-http key: VM-24-16-ubuntu client_addr: 167.94.145.60 client_port: 25218] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+Not Found: /
+[pid: 45664|app: 0|req: 125/148] 143.198.28.79 () {30 vars in 433 bytes} [Fri Jan 13 05:15:01 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 126/149] 162.243.134.16 () {30 vars in 344 bytes} [Fri Jan 13 07:34:48 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 127/150] 123.157.144.100 () {36 vars in 703 bytes} [Fri Jan 13 07:55:30 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 128/151] 123.157.144.100 () {38 vars in 705 bytes} [Fri Jan 13 07:55:31 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 129/152] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:50 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 130/153] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:55 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 131/154] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:56 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 132/155] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:57 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 133/156] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:58 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 134/157] 123.157.144.100 () {40 vars in 815 bytes} [Fri Jan 13 07:55:58 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 135/158] 123.157.144.100 () {40 vars in 817 bytes} [Fri Jan 13 07:56:04 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 136/159] 123.157.144.100 () {40 vars in 819 bytes} [Fri Jan 13 07:56:05 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/160] 123.157.144.100 () {38 vars in 677 bytes} [Fri Jan 13 07:56:05 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 137/161] 123.157.144.100 () {40 vars in 821 bytes} [Fri Jan 13 07:56:08 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 138/162] 117.151.107.143 () {36 vars in 663 bytes} [Fri Jan 13 07:56:29 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 139/163] 117.151.107.143 () {38 vars in 676 bytes} [Fri Jan 13 07:56:29 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 140/164] 111.16.153.236 () {34 vars in 674 bytes} [Fri Jan 13 08:06:56 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 141/165] 111.16.153.236 () {36 vars in 676 bytes} [Fri Jan 13 08:06:56 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 142/166] 42.236.10.84 () {34 vars in 643 bytes} [Fri Jan 13 08:08:00 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 143/167] 42.236.10.75 () {34 vars in 645 bytes} [Fri Jan 13 08:08:00 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 144/168] 42.236.10.75 () {40 vars in 729 bytes} [Fri Jan 13 08:08:00 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 145/169] 42.236.10.106 () {38 vars in 699 bytes} [Fri Jan 13 08:08:01 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 146/170] 184.105.247.234 () {30 vars in 440 bytes} [Fri Jan 13 08:09:23 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 147/171] 42.236.10.114 () {34 vars in 620 bytes} [Fri Jan 13 08:09:49 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 148/172] 42.236.10.106 () {40 vars in 705 bytes} [Fri Jan 13 08:09:49 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 149/173] 42.236.10.75 () {40 vars in 704 bytes} [Fri Jan 13 08:09:54 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[uwsgi-http key: api.ipify.org client_addr: 184.105.247.210 client_port: 39932] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[pid: 45664|app: 0|req: 150/174] 184.105.247.210 () {26 vars in 414 bytes} [Fri Jan 13 08:10:31 2023] GET http://api.ipify.org/?format=json => generated 56937 bytes in 21 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 151/175] 123.157.144.100 () {40 vars in 821 bytes} [Fri Jan 13 08:10:53 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[pid: 45664|app: 0|req: 152/176] 184.105.247.198 () {32 vars in 494 bytes} [Fri Jan 13 08:10:54 2023] CONNECT www.shadowserver.org:443 => generated 57130 bytes in 22 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 153/177] 123.157.144.100 () {40 vars in 821 bytes} [Fri Jan 13 08:10:55 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 154/178] 223.74.180.60 () {36 vars in 742 bytes} [Fri Jan 13 08:14:41 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 155/179] 223.74.180.60 () {38 vars in 744 bytes} [Fri Jan 13 08:14:41 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 156/180] 223.102.141.139 () {36 vars in 744 bytes} [Fri Jan 13 08:24:01 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 157/181] 223.102.141.139 () {38 vars in 746 bytes} [Fri Jan 13 08:24:01 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 158/182] 183.248.4.214 () {36 vars in 710 bytes} [Fri Jan 13 08:37:12 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 159/183] 183.248.4.214 () {38 vars in 712 bytes} [Fri Jan 13 08:37:12 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 160/184] 183.248.4.214 () {40 vars in 799 bytes} [Fri Jan 13 08:37:39 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 161/185] 183.248.4.214 () {40 vars in 799 bytes} [Fri Jan 13 08:37:41 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 162/186] 183.248.4.214 () {40 vars in 823 bytes} [Fri Jan 13 08:37:43 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 163/187] 183.248.4.214 () {40 vars in 826 bytes} [Fri Jan 13 08:37:43 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/188] 183.248.4.214 () {38 vars in 684 bytes} [Fri Jan 13 08:37:44 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: -1|req: -1/189] 1.13.138.138 () {34 vars in 562 bytes} [Fri Jan 13 09:01:07 2023] GET /static/admin/img/search.svg => generated 458 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 115 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 164/190] 218.58.252.237 () {34 vars in 674 bytes} [Fri Jan 13 09:14:26 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 165/191] 218.58.252.237 () {36 vars in 676 bytes} [Fri Jan 13 09:14:27 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 166/192] 218.58.252.237 () {38 vars in 762 bytes} [Fri Jan 13 09:14:35 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 167/193] 218.58.252.237 () {38 vars in 788 bytes} [Fri Jan 13 09:14:42 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 168/194] 218.58.252.237 () {38 vars in 790 bytes} [Fri Jan 13 09:14:42 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/195] 218.58.252.237 () {36 vars in 648 bytes} [Fri Jan 13 09:14:42 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 169/196] 218.58.252.237 () {38 vars in 791 bytes} [Fri Jan 13 09:14:46 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 170/197] 218.58.252.237 () {38 vars in 791 bytes} [Fri Jan 13 09:14:47 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 171/198] 59.174.187.226 () {36 vars in 703 bytes} [Fri Jan 13 09:22:42 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 172/199] 59.174.187.226 () {38 vars in 705 bytes} [Fri Jan 13 09:22:42 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 173/200] 59.174.187.226 () {40 vars in 817 bytes} [Fri Jan 13 09:22:46 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 174/201] 59.174.187.226 () {40 vars in 819 bytes} [Fri Jan 13 09:22:46 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/202] 59.174.187.226 () {38 vars in 677 bytes} [Fri Jan 13 09:22:46 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 175/203] 59.174.187.226 () {38 vars in 760 bytes} [Fri Jan 13 09:22:47 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 176/204] 59.174.187.226 () {40 vars in 819 bytes} [Fri Jan 13 09:22:50 2023] GET /blog/category/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 177/205] 59.174.187.226 () {40 vars in 821 bytes} [Fri Jan 13 09:22:50 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 178/206] 59.174.187.226 () {40 vars in 824 bytes} [Fri Jan 13 09:22:52 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 179/207] 59.174.187.226 () {40 vars in 824 bytes} [Fri Jan 13 09:22:53 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 180/208] 59.174.187.226 () {40 vars in 824 bytes} [Fri Jan 13 09:22:54 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 181/209] 59.174.187.226 () {40 vars in 822 bytes} [Fri Jan 13 09:22:55 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 182/210] 59.174.187.226 () {40 vars in 820 bytes} [Fri Jan 13 09:22:58 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 183/211] 59.174.187.226 () {40 vars in 822 bytes} [Fri Jan 13 09:22:58 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 184/212] 175.174.149.29 () {36 vars in 702 bytes} [Fri Jan 13 09:44:16 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 185/213] 175.174.149.29 () {38 vars in 704 bytes} [Fri Jan 13 09:44:16 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 186/214] 175.174.149.29 () {40 vars in 816 bytes} [Fri Jan 13 09:44:22 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 187/215] 175.174.149.29 () {40 vars in 818 bytes} [Fri Jan 13 09:44:22 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/216] 175.174.149.29 () {38 vars in 676 bytes} [Fri Jan 13 09:44:22 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 188/217] 106.75.186.152 () {26 vars in 276 bytes} [Fri Jan 13 10:03:42 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 189/218] 106.75.189.40 () {34 vars in 564 bytes} [Fri Jan 13 10:04:16 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 190/219] 59.83.208.103 () {40 vars in 839 bytes} [Fri Jan 13 10:15:13 2023] GET /admin/blog/category/add/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 10 headers in 390 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 191/220] 220.196.160.101 () {40 vars in 878 bytes} [Fri Jan 13 10:15:13 2023] GET /admin/login/?next=/admin/blog/category/add/ => generated 2256 bytes in 10 msecs (HTTP/1.1 200) 10 headers in 470 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/221] 106.55.200.233 () {28 vars in 383 bytes} [Fri Jan 13 10:15:13 2023] GET /static/admin/js/nav_sidebar.js => generated 3763 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 125 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 192/222] 117.189.131.25 () {36 vars in 698 bytes} [Fri Jan 13 11:02:28 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 193/223] 117.189.131.25 () {38 vars in 700 bytes} [Fri Jan 13 11:02:28 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 194/224] 117.189.131.25 () {40 vars in 812 bytes} [Fri Jan 13 11:02:36 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 195/225] 117.189.131.25 () {40 vars in 814 bytes} [Fri Jan 13 11:02:36 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/226] 117.189.131.25 () {38 vars in 672 bytes} [Fri Jan 13 11:02:36 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 196/227] 117.189.131.25 () {40 vars in 816 bytes} [Fri Jan 13 11:02:43 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 197/228] 117.189.131.25 () {40 vars in 816 bytes} [Fri Jan 13 11:02:44 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 198/229] 117.189.131.25 () {40 vars in 816 bytes} [Fri Jan 13 11:02:45 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 199/230] 175.1.116.139 () {36 vars in 800 bytes} [Fri Jan 13 12:00:50 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 200/231] 175.1.116.139 () {36 vars in 758 bytes} [Fri Jan 13 12:00:51 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 201/232] 175.1.116.139 () {36 vars in 826 bytes} [Fri Jan 13 12:00:59 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 202/233] 180.101.245.247 () {38 vars in 727 bytes} [Fri Jan 13 12:05:00 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 203/234] 175.1.116.139 () {38 vars in 887 bytes} [Fri Jan 13 12:10:02 2023] GET /blog/category/3/ => generated 626 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 204/235] 175.1.116.139 () {38 vars in 887 bytes} [Fri Jan 13 12:10:07 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 205/236] 183.248.4.214 () {38 vars in 768 bytes} [Fri Jan 13 12:12:25 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 206/237] 183.248.4.214 () {38 vars in 713 bytes} [Fri Jan 13 12:12:29 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 207/238] 175.1.116.139 () {36 vars in 800 bytes} [Fri Jan 13 12:30:10 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 208/239] 175.1.116.139 () {36 vars in 758 bytes} [Fri Jan 13 12:30:10 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 209/240] 175.1.116.139 () {36 vars in 826 bytes} [Fri Jan 13 12:30:17 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 210/241] 175.1.116.139 () {38 vars in 885 bytes} [Fri Jan 13 12:30:21 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/242] 175.1.116.139 () {38 vars in 809 bytes} [Fri Jan 13 12:30:21 2023] GET /static/pygments.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 211/243] 175.1.116.139 () {38 vars in 884 bytes} [Fri Jan 13 12:30:56 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 212/244] 175.1.116.139 () {38 vars in 884 bytes} [Fri Jan 13 12:30:58 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 45664|app: 0|req: 213/245] 185.189.182.234 () {22 vars in 228 bytes} [Fri Jan 13 13:10:55 2023] GET / => generated 55962 bytes in 22 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+[uwsgi-http key: VM-24-16-ubuntu client_addr: 185.189.182.234 client_port: 29898] hr_write(): Connection reset by peer [plugins/http/http.c line 565]
+[pid: 45664|app: 0|req: 214/246] 123.128.120.161 () {36 vars in 744 bytes} [Fri Jan 13 13:35:43 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 215/247] 123.128.120.161 () {38 vars in 746 bytes} [Fri Jan 13 13:35:43 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 216/248] 123.128.120.161 () {40 vars in 858 bytes} [Fri Jan 13 13:35:55 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 217/249] 123.128.120.161 () {40 vars in 860 bytes} [Fri Jan 13 13:35:55 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/250] 123.128.120.161 () {38 vars in 729 bytes} [Fri Jan 13 13:35:55 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 218/251] 123.128.120.161 () {40 vars in 862 bytes} [Fri Jan 13 13:36:01 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 219/252] 123.128.120.161 () {40 vars in 862 bytes} [Fri Jan 13 13:36:03 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 220/253] 123.128.120.161 () {40 vars in 860 bytes} [Fri Jan 13 13:36:04 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 221/254] 123.128.120.161 () {38 vars in 799 bytes} [Fri Jan 13 13:36:06 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 92.63.196.94 client_port: 48840] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[uwsgi-http key:  client_addr: 31.43.185.65 client_port: 43250] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[uwsgi-http key:  client_addr: 45.143.201.62 client_port: 42751] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[uwsgi-http key:  client_addr: 31.43.185.65 client_port: 23804] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[uwsgi-http key:  client_addr: 45.143.201.62 client_port: 7161] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[pid: 45664|app: 0|req: 222/255] 183.192.124.69 () {36 vars in 703 bytes} [Fri Jan 13 17:34:19 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 223/256] 183.192.124.69 () {38 vars in 705 bytes} [Fri Jan 13 17:34:19 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 224/257] 183.192.124.69 () {40 vars in 817 bytes} [Fri Jan 13 17:34:26 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 225/258] 183.192.124.69 () {40 vars in 819 bytes} [Fri Jan 13 17:34:26 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/259] 183.192.124.69 () {38 vars in 677 bytes} [Fri Jan 13 17:34:26 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 226/260] 183.192.124.69 () {40 vars in 815 bytes} [Fri Jan 13 17:34:33 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 227/261] 183.192.124.69 () {40 vars in 817 bytes} [Fri Jan 13 17:34:36 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 228/262] 183.192.124.69 () {40 vars in 819 bytes} [Fri Jan 13 17:34:36 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 229/263] 183.192.124.69 () {40 vars in 817 bytes} [Fri Jan 13 17:34:47 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 230/264] 183.192.124.69 () {40 vars in 819 bytes} [Fri Jan 13 17:34:47 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 231/265] 183.192.124.69 () {40 vars in 817 bytes} [Fri Jan 13 17:35:17 2023] GET /blog/article/5 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 232/266] 183.192.124.69 () {40 vars in 819 bytes} [Fri Jan 13 17:35:17 2023] GET /blog/article/5/ => generated 2469 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 31.43.185.65 client_port: 44018] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+[pid: 45664|app: 0|req: 233/267] 220.196.160.76 () {40 vars in 791 bytes} [Fri Jan 13 17:37:06 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 234/268] 220.196.160.144 () {40 vars in 795 bytes} [Fri Jan 13 17:37:06 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 235/269] 220.196.160.151 () {40 vars in 794 bytes} [Fri Jan 13 17:43:07 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 236/270] 43.129.219.189 () {30 vars in 335 bytes} [Fri Jan 13 18:04:19 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 237/271] 49.98.116.210 () {36 vars in 695 bytes} [Fri Jan 13 18:15:08 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 238/272] 220.196.160.53 () {40 vars in 791 bytes} [Fri Jan 13 18:27:52 2023] GET /blog/article/3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 239/273] 220.196.160.95 () {40 vars in 794 bytes} [Fri Jan 13 18:27:52 2023] GET /blog/article/3/ => generated 2313 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 240/274] 223.101.110.104 () {36 vars in 736 bytes} [Fri Jan 13 19:21:55 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 241/275] 223.101.110.104 () {38 vars in 738 bytes} [Fri Jan 13 19:21:55 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 242/276] 223.101.110.104 () {40 vars in 848 bytes} [Fri Jan 13 19:22:02 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 243/277] 223.101.110.104 () {40 vars in 848 bytes} [Fri Jan 13 19:22:03 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 244/278] 223.101.110.104 () {40 vars in 848 bytes} [Fri Jan 13 19:22:05 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 245/279] 223.101.110.104 () {40 vars in 850 bytes} [Fri Jan 13 19:22:07 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 246/280] 223.101.110.104 () {40 vars in 852 bytes} [Fri Jan 13 19:22:07 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/281] 223.101.110.104 () {38 vars in 710 bytes} [Fri Jan 13 19:22:07 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 247/282] 223.101.110.104 () {38 vars in 797 bytes} [Fri Jan 13 19:22:18 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 248/283] 180.101.245.253 () {40 vars in 822 bytes} [Fri Jan 13 19:32:26 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 249/284] 113.26.111.49 () {36 vars in 702 bytes} [Fri Jan 13 20:01:01 2023] GET /blog/article/ => generated 4411 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 250/285] 113.26.111.49 () {38 vars in 704 bytes} [Fri Jan 13 20:01:01 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 251/286] 113.26.111.49 () {40 vars in 816 bytes} [Fri Jan 13 20:01:06 2023] GET /blog/article/1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 252/287] 113.26.111.49 () {40 vars in 818 bytes} [Fri Jan 13 20:01:06 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/288] 113.26.111.49 () {38 vars in 676 bytes} [Fri Jan 13 20:01:06 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 253/289] 113.26.111.49 () {40 vars in 814 bytes} [Fri Jan 13 20:01:11 2023] GET /blog/article/ => generated 4411 bytes in 9 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 254/290] 113.26.111.49 () {40 vars in 814 bytes} [Fri Jan 13 20:01:11 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 255/291] 113.26.111.49 () {40 vars in 814 bytes} [Fri Jan 13 20:01:12 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 256/292] 113.26.111.49 () {40 vars in 814 bytes} [Fri Jan 13 20:01:13 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 257/293] 113.26.111.49 () {40 vars in 818 bytes} [Fri Jan 13 20:01:26 2023] GET /blog/category/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 258/294] 113.26.111.49 () {40 vars in 820 bytes} [Fri Jan 13 20:01:26 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 259/295] 113.26.111.49 () {40 vars in 821 bytes} [Fri Jan 13 20:01:27 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 260/296] 113.26.111.49 () {40 vars in 820 bytes} [Fri Jan 13 20:01:31 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 261/297] 113.26.111.49 () {40 vars in 820 bytes} [Fri Jan 13 20:01:33 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 262/298] 113.26.111.49 () {40 vars in 820 bytes} [Fri Jan 13 20:01:33 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 263/299] 113.26.111.49 () {40 vars in 817 bytes} [Fri Jan 13 20:01:34 2023] GET /blog/article/1/ => generated 2037 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 264/300] 180.101.244.15 () {40 vars in 794 bytes} [Fri Jan 13 20:08:43 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 265/301] 180.101.244.16 () {40 vars in 793 bytes} [Fri Jan 13 20:11:55 2023] GET /blog/category/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 266/302] 220.196.160.146 () {40 vars in 798 bytes} [Fri Jan 13 20:11:55 2023] GET /blog/category/2/ => generated 1762 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 267/303] 61.157.168.51 () {36 vars in 666 bytes} [Fri Jan 13 20:18:13 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 268/304] 61.157.168.51 () {38 vars in 679 bytes} [Fri Jan 13 20:18:13 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 269/305] 61.157.168.51 () {38 vars in 723 bytes} [Fri Jan 13 20:18:17 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 270/306] 61.157.168.51 () {40 vars in 780 bytes} [Fri Jan 13 20:18:23 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 271/307] 61.157.168.51 () {40 vars in 782 bytes} [Fri Jan 13 20:18:23 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: -1|req: -1/308] 61.157.168.51 () {38 vars in 690 bytes} [Fri Jan 13 20:18:23 2023] GET /static/pygments.css => generated 9982 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 45664|app: 0|req: 272/309] 180.163.29.103 () {32 vars in 595 bytes} [Fri Jan 13 20:19:13 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 273/310] 180.163.29.103 () {34 vars in 651 bytes} [Fri Jan 13 20:19:13 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 274/311] 180.163.30.27 () {34 vars in 573 bytes} [Fri Jan 13 20:19:24 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 275/312] 180.163.30.27 () {34 vars in 575 bytes} [Fri Jan 13 20:19:24 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 276/313] 180.101.245.246 () {40 vars in 761 bytes} [Fri Jan 13 20:21:23 2023] GET /blog/article/2 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 225 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 277/314] 220.196.160.51 () {40 vars in 763 bytes} [Fri Jan 13 20:21:23 2023] GET /blog/article/2/ => generated 2569 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 278/315] 220.196.160.83 () {40 vars in 798 bytes} [Fri Jan 13 20:54:39 2023] GET /blog/category/1/ => generated 2527 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 279/316] 220.196.160.124 () {38 vars in 810 bytes} [Fri Jan 13 21:13:52 2023] GET /blog/article => generated 0 bytes in 0 msecs (HTTP/1.1 301) 6 headers in 223 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 280/317] 59.83.208.104 () {40 vars in 864 bytes} [Fri Jan 13 21:13:52 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 281/318] 175.24.212.154 () {32 vars in 406 bytes} [Sat Jan 14 00:34:35 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 282/319] 134.209.146.133 () {30 vars in 434 bytes} [Sat Jan 14 00:35:43 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 283/320] 94.102.61.48 () {30 vars in 436 bytes} [Sat Jan 14 02:13:14 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 284/321] 59.83.208.108 () {38 vars in 711 bytes} [Sat Jan 14 02:14:58 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 285/322] 205.210.31.151 () {26 vars in 546 bytes} [Sat Jan 14 02:55:46 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 92.63.196.94 client_port: 14557] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+Not Found: /
+[pid: 45664|app: 0|req: 286/323] 202.95.12.18 () {24 vars in 255 bytes} [Sat Jan 14 03:54:21 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 287/324] 202.95.12.18 () {28 vars in 342 bytes} [Sat Jan 14 03:54:23 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /robots.txt
+[pid: 45664|app: 0|req: 288/325] 202.95.12.18 () {28 vars in 341 bytes} [Sat Jan 14 03:54:25 2023] GET /robots.txt => generated 2216 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /sitemap.xml
+[pid: 45664|app: 0|req: 289/326] 202.95.12.18 () {28 vars in 343 bytes} [Sat Jan 14 03:54:27 2023] GET /sitemap.xml => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 290/327] 23.225.163.213 () {24 vars in 258 bytes} [Sat Jan 14 07:23:06 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 291/328] 167.94.138.62 () {30 vars in 392 bytes} [Sat Jan 14 08:15:25 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 292/329] 167.94.138.62 () {22 vars in 226 bytes} [Sat Jan 14 08:15:26 2023] PRI * => generated 55966 bytes in 24 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 293/330] 114.101.204.13 () {34 vars in 714 bytes} [Sat Jan 14 08:26:53 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 294/331] 114.101.204.13 () {36 vars in 716 bytes} [Sat Jan 14 08:26:53 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 295/332] 114.101.204.13 () {38 vars in 802 bytes} [Sat Jan 14 08:26:55 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 296/333] 114.101.204.13 () {38 vars in 802 bytes} [Sat Jan 14 08:26:56 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 297/334] 114.101.204.13 () {38 vars in 802 bytes} [Sat Jan 14 08:27:02 2023] GET /blog/article/ => generated 4411 bytes in 9 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+[pid: 45664|app: 0|req: 298/335] 114.101.204.13 () {38 vars in 802 bytes} [Sat Jan 14 08:27:02 2023] GET /blog/article/ => generated 4411 bytes in 8 msecs (HTTP/1.1 200) 8 headers in 358 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 299/336] 167.248.133.61 () {30 vars in 393 bytes} [Sat Jan 14 09:07:42 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 300/337] 167.248.133.61 () {22 vars in 226 bytes} [Sat Jan 14 09:07:43 2023] PRI * => generated 55966 bytes in 22 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 301/338] 167.94.138.44 () {24 vars in 257 bytes} [Sat Jan 14 09:10:45 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 302/339] 167.94.138.44 () {30 vars in 392 bytes} [Sat Jan 14 09:10:45 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 303/340] 167.94.138.44 () {22 vars in 226 bytes} [Sat Jan 14 09:10:46 2023] PRI * => generated 55966 bytes in 22 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 304/341] 167.94.138.62 () {30 vars in 392 bytes} [Sat Jan 14 09:23:45 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 305/342] 167.94.138.62 () {22 vars in 226 bytes} [Sat Jan 14 09:23:45 2023] PRI * => generated 55966 bytes in 21 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 306/343] 192.241.203.14 () {30 vars in 344 bytes} [Sat Jan 14 10:13:39 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 307/344] 167.94.138.60 () {30 vars in 392 bytes} [Sat Jan 14 10:23:16 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'VM-24-16-ubuntu:8000'. You may need to add 'vm-24-16-ubuntu' to ALLOWED_HOSTS.
+Bad Request: /*
+[pid: 45664|app: 0|req: 308/345] 167.94.138.60 () {22 vars in 226 bytes} [Sat Jan 14 10:23:17 2023] PRI * => generated 55966 bytes in 22 msecs (HTTP/2.0 400) 4 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 309/346] 87.236.176.187 () {32 vars in 430 bytes} [Sat Jan 14 11:30:31 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 92.63.196.95 client_port: 34755] hr_read(): Connection reset by peer [plugins/http/http.c line 918]
+Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/myproject/myenv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'passport.baidu.com:80'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+Bad Request: /http:/passport.baidu.com/
+[pid: 45664|app: 0|req: 310/347] 8.219.119.144 () {28 vars in 370 bytes} [Sat Jan 14 13:43:47 2023] GET http://passport.baidu.com/ => generated 56696 bytes in 23 msecs (HTTP/1.1 400) 4 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 311/348] 175.1.109.203 () {36 vars in 800 bytes} [Sat Jan 14 14:07:14 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 45664|app: 0|req: 312/349] 175.1.109.203 () {36 vars in 758 bytes} [Sat Jan 14 14:07:15 2023] GET /favicon.ico => generated 2219 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 45664|app: 0|req: 313/350] 185.180.143.6 () {30 vars in 438 bytes} [Sat Jan 14 15:11:23 2023] GET / => generated 2168 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
