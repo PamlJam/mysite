@@ -1,0 +1,16 @@
+<form method="post" action=".">
+    {% csrf_token %}
+    <label>昵称</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label>邮箱</label>
+    <input type="text"  id="email" name="email">
+
+    <label>密码</label>
+    <input type="password"  id="password" name="password" required>
+
+    <label>重复密码</label>
+    <input type="password" id="pwrepeat" name="pwrepeat" required>
+    
+    <button type="submit" >提交</button>
+</form>

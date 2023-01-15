@@ -24,7 +24,18 @@
         | <a href="">博客</a>
         | <a href="">关于</a>
         </p>
-            
+
+        <p>
+        {% if user.is_authenticated %}
+            欢迎，{{  user.username }}
+            / <a href='{% url "userprofile:logout" %}'>注销</a>
+        {% else %}
+            欢迎，游客
+            / <a href='{% url "userprofile:login" %}'>登录</a>
+            / <a href='{% url "userprofile:register" %}'>注册</a>
+        {% endif %}
+        </p>
+
         {% block son %}
         
         {% endblock son %}
