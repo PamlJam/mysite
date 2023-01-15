@@ -1,0 +1,15 @@
+/* 将页脚保持在底部 */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* 避免超链接变色 */
+a {
+    color:blueviolet;
+}

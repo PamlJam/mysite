@@ -1,47 +1,29 @@
-<style>
-    /* 将页脚保持在底部 */
-    
-    .container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    }
-
-    main {
-    flex: 1;
-    }
-</style>
-
-<style>
-    a{color:blueviolet;}    /* 避免超链接变色 */
-</style>
+{% load static %}
+<link type="text/css" rel="stylesheet" href="{% static 'base.css' %}"/>
 
 <div class="container">
     <header></header>
     <main>
-        <p>
-        <a href="">首页</a>
-        | <a href="">博客</a>
-        | <a href="">关于</a>
+        <p style="text-align:left;">
+        <!-- 行内靠左  -->
+            <a href = "">首页</a>
+            | <a href = "">博客</a>
+            | <a href = "">关于</a>
+            
+            <span style="float:right;">
+            <!-- 行内靠右  -->
+            {% if user.is_authenticated %}
+                <a href = "">登录</a> 
+                | <a href = "">注册</a>
+            {% else %}
+                <a href = "">个人中心</a> 
+                | <a href = "">注销</a>
+            {% endif %}
+            </span>
         </p>
-
-        <p>
-        {% if user.is_authenticated %}
-            欢迎，{{  user.username }}
-            / <a href='{% url "userprofile:logout" %}'>注销</a>
-        {% else %}
-            欢迎，游客
-            / <a href='{% url "userprofile:login" %}'>登录</a>
-            / <a href='{% url "userprofile:register" %}'>注册</a>
-        {% endif %}
-        </p>
-
-        {% block son %}
-        
-        {% endblock son %}
+        {% block son %}{% endblock%}
     </main>
     <footer>
-
         <p>
         <a href="">备案信息</a>
         | <a href="">版权声明</a>

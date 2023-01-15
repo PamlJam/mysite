@@ -48,6 +48,5 @@ def user_login(request):
         user_login_form = UserLoginForm()
         context = { 'form': user_login_form }
         return render(request, 'userprofile/login.html', context)
-
     else:
         return HttpResponse("请使用 GET 或 POST 请求数据")
