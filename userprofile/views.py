@@ -2,7 +2,9 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from .forms import UserLoginForm, UserRegisterForm
-from django.views.decorators.http import require_http_methods
+from django.views.decorators.http import require_http_methods, require_POST
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 
 
 @require_http_methods(["GET","POST"])  # 只允许这两种方法
@@ -53,3 +55,13 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect("/")
+
+@require_POST   # 只接受 POST 请求，想想为什么？
+@login_required(login_url = '/userprofile/login/')  # 允许执行函数的前提是已经登录，否则跳转至登录界面
+def user_delete(request, id):
+    user = User.objects.get(id = id)
+    if request.user == user:
+    # 验证是否为本人发出的请求
+        logout(request)
+        user.delete()
+    return redirect('/')

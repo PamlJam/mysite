@@ -64,7 +64,8 @@ class UserRegisterForm(forms.ModelForm):
         pw = self.cleaned_data.get('password')
         re = self.cleaned_data.get('repeat')
         if pw == re:
-            return pw
+            return self.cleaned_data
+            # 全局钩子必须返回所有数据
         else:
             return self.add_error('repeat','两次输入的密码不一致')
             # 这样比直接在 clean_repeat 中 raise ValidationError 要好得多
