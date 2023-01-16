@@ -1,16 +1,31 @@
+{% if not user.is_authenticated %}
 <form method="post" action=".">
     {% csrf_token %}
-    <label>昵称</label>
-    <input type="text" id="username" name="username" required>
+    <p>
+    用户名*
+    <input type="text" id="username" name="username">
+    {{ errorDict.username.0 }}
+    </p>
     
-    <label>邮箱</label>
+    <p>
+    邮箱
     <input type="text"  id="email" name="email">
+    {{ errorDict.email.0 }}
+    </p>
 
-    <label>密码</label>
-    <input type="password"  id="password" name="password" required>
 
-    <label>重复密码</label>
-    <input type="password" id="pwrepeat" name="pwrepeat" required>
-    
-    <button type="submit" >提交</button>
+    <p>
+    密码*
+    <input type="password"  id="password" name="password">
+    {{ errorDict.password.0 }}
+    </p>
+
+    <p>
+    重复密码*
+    <input type="password" id="repeat" name="repeat">
+    {{ errorDict.repeat.0 }}  
+    </p>
+
+    <button type="submit" >注册</button>
 </form>
+{% endif %}
