@@ -5,6 +5,7 @@ from .forms import UserLoginForm, UserRegisterForm
 from django.views.decorators.http import require_http_methods, require_POST
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from emailSystem.views import send_hello
 
 
 @require_http_methods(["GET","POST"])  # 只允许这两种方法
@@ -23,6 +24,8 @@ def user_register(request):
             new_user.set_password(form.cleaned_data['password'])
             new_user.save()
             login(request, new_user)
+            send_hello(request)
+            # 自动发送问候邮件
             return redirect("/")
         else:
             errorDict = form.errors
