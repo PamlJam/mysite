@@ -51,7 +51,6 @@ def user_login(request):
             else:
                 form.add_error('password', "用户名或密码错误")
                 # 为 form.errors 字典增加错误信息
-
         errorDict = form.errors        
         return render(request, 'userprofile/login.html', {"errorDict" : errorDict})
 
