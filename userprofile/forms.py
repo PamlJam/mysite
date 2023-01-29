@@ -54,6 +54,7 @@ class UserRegisterForm(forms.ModelForm):
     def clean_email(self):
     # 我们在保持原有功能的基础上，增加判断重复邮箱功能
     # 至于为什么能够保持其原有功能，详见 https://stackoverflow.com/a/1872108/20897534
+        em  = self.cleaned_data.get('email')
         user = User.objects.filter(email = em).first()
         if user:
             raise forms.ValidationError('此邮箱已被人使用')
